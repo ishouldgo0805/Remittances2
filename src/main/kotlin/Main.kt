@@ -2,7 +2,7 @@ fun main() {
     print("Ваша комиссия составит: ${commission("Visa", 100.0, 0.0)}")
 }
 
-fun commission(cardType: String, remittance: Double, previousRemittances: Double): Double {
+fun commission(cardType: String = "Vk Pay", remittance: Double, previousRemittances: Double = 0.0): Double {
     var commissionIs = 0.00
     when (cardType) {
         "Vk Pay" -> commissionIs
