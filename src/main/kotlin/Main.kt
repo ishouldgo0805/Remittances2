@@ -1,5 +1,5 @@
 fun main() {
-    print("Ваша комиссия составит: ${commission("Vk Pay", 100.0, 0.0)}")
+    print("Ваша комиссия составит: ${commission("Visa", 100.0, 0.0)}")
 }
 
 fun commission(cardType: String = "Vk Pay", remittance: Double, previousRemittances: Double = 0.0): Double {

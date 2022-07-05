@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainKtTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-05T14:53:13" hostname="LAPTOP-8GEDCGDV" time="0.007">
+<testsuite name="MainKtTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-07-05T16:13:07" hostname="LAPTOP-8GEDCGDV" time="0.007">
   <properties/>
-  <testcase name="main" classname="MainKtTest" time="0.003"/>
-  <testcase name="commission_When_Is_Default" classname="MainKtTest" time="0.004"/>
+  <testcase name="commission_when_is_default" classname="MainKtTest" time="0.006"/>
+  <testcase name="commission_when_Visa" classname="MainKtTest" time="0.0"/>
+  <testcase name="commission_when_Mir" classname="MainKtTest" time="0.0"/>
+  <testcase name="commission_when_is_VK_Pay" classname="MainKtTest" time="0.0"/>
+  <testcase name="commission_when_Visa_if_remittance_more_35" classname="MainKtTest" time="0.0"/>
+  <testcase name="commission_when_MC" classname="MainKtTest" time="0.0"/>
+  <testcase name="commission_when_Maestro" classname="MainKtTest" time="0.0"/>
+  <testcase name="commission_when_Mir_if_remittance_more_35" classname="MainKtTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
